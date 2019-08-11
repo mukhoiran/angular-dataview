@@ -21,6 +21,18 @@
       <div ng-bind="5*8"></div>
 
       <hr>
+      <!-- ========== Directive ngInit ========== -->
+      <h2>Directive ng-init :</h2>
+      <div ng-init="name= 'robert'"></div>
+      <div>{{name}}</div>
+      <div ng-bind="name"></div>
+      <!-- ========== Directive ngInit Multivariable ========== -->
+      <div ng-init="age=20; gender='male'"></div>
+      <div>{{age}} {{gender}}</div>
+      <!-- ========== Directive ngInit Array ========== -->
+      <div ng-init="hobbies=['swimming','football','jogging']"></div>
+      <div>{{hobbies[1]}}</div>
+      
     </div>
   </body>
 </html>
