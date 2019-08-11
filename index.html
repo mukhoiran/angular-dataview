@@ -32,7 +32,11 @@
       <!-- ========== Directive ngInit Array ========== -->
       <div ng-init="hobbies=['swimming','football','jogging']"></div>
       <div>{{hobbies[1]}}</div>
-      
+
+      <hr>
+      <!-- ========== Directive ngRepeat ========== -->
+      <h2>Hobbies :</h2>
+      <div ng-repeat="h in hobbies">{{h}}</div>
     </div>
   </body>
 </html>
